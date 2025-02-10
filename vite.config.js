@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
   const isDevelopment = mode === 'development';
 
   return {
-    base: '/xr_datavis/', // Set your base path here
+    base: '/data_co2/', // Set your base path here
     plugins: [react()],
     server: {
       https: isDevelopment
